@@ -66,11 +66,10 @@ Adding one more div just below the `root` for showing a model
 <div id="model"></div>
 ```
 
-### `client/src/actions/index.js`
-
 ### `client/src/actions/types.js`
 This file exists because string should be same in actions and reducers, so for avoiding string to write in multiple places, we write at this file and import in other places, where we want to use.
 
+### `client/src/actions/index.js`
 `signIn`
 This action is responsible for signing in and storing `userId`
 
